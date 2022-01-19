@@ -56,7 +56,7 @@ git pull
 ```
 
 ## Status
-Completed
+Complete
 
 ## Author
-Abdullah Zaman Babar  ----> DevOps Trainee at SkipQ     <abdullah.zaman.babar.s@skipq.org>
+Abdullah Zaman Babar  ----> DevOps Training     <abdullahzamanbabar2019@gmail.com>

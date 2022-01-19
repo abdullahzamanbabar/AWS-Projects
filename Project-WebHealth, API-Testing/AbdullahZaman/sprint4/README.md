@@ -53,4 +53,4 @@ Before deploying the app to the AWS AMPLIFY, update the dependecies in the packa
 Complete
 
 ## Author
-Abdullah Zaman Babar  ----> DevOps Trainee at SkipQ     <abdullah.zaman.babar.s@skipq.org>
+Abdullah Zaman Babar  ----> DevOps Training     <abdullahzamanbabar2019@gmail.com>

@@ -26,7 +26,7 @@ python3 -m pip install -r path_to_requirements.txt/requirements.txt
 ```
 
 ## Status
-Completed
+Complete
 
 ## Author
-Abdullah Zaman Babar  ----> DevOps Trainee at SkipQ     <abdullah.zaman.babar.s@skipq.org>
+Abdullah Zaman Babar  ----> DevOps Training     <abdullahzamanbabar2019@gmail.com>
