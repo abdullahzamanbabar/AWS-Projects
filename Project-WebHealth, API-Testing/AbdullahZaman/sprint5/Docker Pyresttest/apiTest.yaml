@@ -1,0 +1,36 @@
+---
+- config:
+    - testset: "Basic tests"
+    - timeout: 100  # Increase timeout from the default 10 seconds
+- test: 
+    - name: "Checking Health of API"
+    - url: "/prod/health"
+    - method: 'GET'
+- test: 
+    - name: "Get all Urls"
+    - url: "/prod/urls"
+    - method: 'GET'
+- test: 
+    - name: "Get one Url"
+    - url: "/prod/url?URL_ADDRESS=www.dawn.com"
+    - method: 'GET'
+- test: 
+    - name: "Post Url"
+    - url: "/prod/url"
+    - method: 'POST'
+    - body: '{"URL_ADDRESS":"www.pyresttest.com"}'
+- test: 
+    - name: "Delete Url"
+    - url: "/prod/url"
+    - method: 'DELETE'
+    - body: '{"URL_ADDRESS":"www.pyresttest.com"}'
+- test: 
+    - name: "Update Url"
+    - url: "/prod/url"
+    - method: 'PATCH'
+    - body: '{"URL_ADDRESS": "www.test1.com", "updateValue": "www.testPatch.com"}'
+- test: 
+    - name: "Update Url"
+    - url: "/prod/url"
+    - method: 'PATCH'
+    - body: '{"URL_ADDRESS": "www.testPatch.com", "updateValue": "www.test1.com"}'
